@@ -16,5 +16,5 @@ Here are some ideas to get you started:
 -->
 ### Connect with me:
 
-[<img alighn='left' src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/akhomochkina/)  
-[<img alighn='left' src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/secretdiariesofacodegirl/)  
+[<img align='left' src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/akhomochkina/)  
+[<img align='left' src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/secretdiariesofacodegirl/)  
