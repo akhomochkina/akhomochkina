@@ -14,8 +14,6 @@
 <br />
 <br />
 
----
-
 ## Stats:
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true)  
