@@ -1,4 +1,4 @@
-## Hi there 👋 My name is Anastasia and I am a 3d year programming student at Seneca College in Toronto, Canada.
+## Hi there 👋 My name is Anastasia and I am a 3d year Software Development student at Seneca College in Toronto, Canada.
 
 <br />
 
