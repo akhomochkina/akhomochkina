@@ -23,12 +23,6 @@ Here are some ideas to get you started:
 <br />
 <br />
 
-<details>
-  <summary>:fire: GitHub Statistics</summary>
-
-  <img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true&hide_border=true" />
-
-</details>
-
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true)  
 
 ![Profile views](https://gpvc.arturio.dev/akhomochkina)  
