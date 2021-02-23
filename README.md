@@ -1,12 +1,13 @@
 ## Hi there 👋 My name is Anastasia and I am a 3d year programming student at Seneca College in Toronto, Canada.
 
 <br />
-<br />
 
 - 🔭 I’m currently working on different school projects and in my free time I love to learn by building projects on my own
 - 🌱 I’m currently learning as much as I can
 - 😄 Pronouns: She/Her
 - ⚡ Fun fact: I have a really cute fat cat
+
+<br />
 
 ### Connect with me :point_down:
 
