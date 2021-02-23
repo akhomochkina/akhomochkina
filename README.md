@@ -27,6 +27,4 @@ Here are some ideas to get you started:
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true)  
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=akhomochkina)  
-
 ![Profile views](https://gpvc.arturio.dev/akhomochkina)  
