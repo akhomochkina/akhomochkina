@@ -14,7 +14,7 @@
 <br />
 <br />
 
-## Stats:
+## Stats :star:
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true)  
 
