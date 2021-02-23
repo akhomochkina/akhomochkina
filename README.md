@@ -18,6 +18,8 @@ Here are some ideas to get you started:
 
 [<img align='left' src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/akhomochkina/) [<img align='left' src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/secretdiariesofacodegirl/)  
 
+<br />
+<br />
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akhomochkina)](https://github.com/anuraghazra/github-readme-stats)
 
