@@ -26,12 +26,12 @@ Here are some ideas to get you started:
 <details>
   <summary>:zap: GitHub Stats</summary>
 
-  <img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akhomochkina" />
+  <img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true&hide_border=true" />
 
 </details>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akhomochkina)](https://github.com/anuraghazra/github-readme-stats)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true)  
+<!--![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true)  -->
 
 ![Profile views](https://gpvc.arturio.dev/akhomochkina)  
