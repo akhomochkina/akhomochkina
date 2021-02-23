@@ -23,6 +23,13 @@ Here are some ideas to get you started:
 <br />
 <br />
 
+<details>
+  <summary>:zap: GitHub Stats</summary>
+
+  <img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akhomochkina" />
+
+</details>
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akhomochkina)](https://github.com/anuraghazra/github-readme-stats)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true)  
