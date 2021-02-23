@@ -1,4 +1,4 @@
-### Hi there 👋
+## Hi there 👋 My name is Anastasia and I am a 3d year programming student at Seneca College in Toronto, Canada.
 
 <!--
 **akhomochkina/akhomochkina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+### Connect with me:
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/akhomochkina/)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/secretdiariesofacodegirl/)  
