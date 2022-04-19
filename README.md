@@ -9,6 +9,7 @@ I am a 4th-year Software Development student at Seneca College
 * 🔭 I’m currently working on different school projects and in my free time I love to learn by building projects on my own
 * ⚡ I have an Instagram blog about programming
 * 😄 Pronouns: She/Her
+<br></br>
 
 ## Connect with me :point_down:
 
