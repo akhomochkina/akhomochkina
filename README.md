@@ -3,7 +3,7 @@ Hi 👋 My name is Anastasia
 
 I am a 4th-year Software Development student at Seneca College
 
-<br />
+
 
 * 🌍  I live in Toronto, Canada
 * 🔭 I’m currently working on different school projects and in my free time I love to learn by building projects on my own
@@ -14,6 +14,7 @@ I am a 4th-year Software Development student at Seneca College
 
 <p align="left"> <a href="http://www.instagram.com/diariesofacodegirl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/akhomochkina" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p> 
 <br></br>
+
 ## Skills  :fire:
 
 <p align="left">
