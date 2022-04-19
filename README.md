@@ -12,7 +12,7 @@ I am a 4th-year Software Development student at Seneca College
 
 ## Connect with me :point_down:
 
-<p align="left"> <a href="http://www.instagram.com/diariesofacodegirl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/akhomochkina" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p> 
+<p align="left"> <a href="http://www.instagram.com/diariesofacodegirl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/akhomochkina" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p> 
 <br></br>
 
 ## Skills  :fire:
