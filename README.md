@@ -1,10 +1,6 @@
 Hi 👋 My name is Anastasia
 ==========================
 
-I am a 4th-year Software Development student at Seneca College
-
-
-
 * 🌍  I live in Toronto, Canada
 * 🔭 I currently work as a Software Engineer and in my free time I love to learn by building projects on my own
 * ⚡ I have an Instagram blog about programming
