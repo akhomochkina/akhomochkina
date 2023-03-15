@@ -6,7 +6,7 @@ I am a 4th-year Software Development student at Seneca College
 
 
 * 🌍  I live in Toronto, Canada
-* 🔭 I’m currently working on different school projects and in my free time I love to learn by building projects on my own
+* 🔭 I’m currently as a Software Engineer and in my free time I love to learn by building projects on my own
 * ⚡ I have an Instagram blog about programming
 * 😄 Pronouns: She/Her
 <br></br>
