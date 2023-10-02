@@ -43,4 +43,3 @@ Hi 👋 My name is Anastasia
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true&theme=gotham)  
 <br></br>
-![Profile views](https://gpvc.arturio.dev/akhomochkina)  
