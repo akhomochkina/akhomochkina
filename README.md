@@ -42,4 +42,3 @@ Hi 👋 My name is Anastasia
 ## Stats :star:
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=akhomochkina&show_icons=true&theme=gotham)  
-<br></br>
