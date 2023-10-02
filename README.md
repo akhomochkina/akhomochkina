@@ -4,7 +4,6 @@ Hi 👋 My name is Anastasia
 
 * 🌍  I live in Toronto, Canada
 * 🔭 I currently work as a Software Engineer and in my free time I love to build projects on my own
-* ⚡ I have an Instagram blog about programming
 * 😄 Pronouns: She/Her
 <br></br>
 
