@@ -7,8 +7,8 @@
   --surface-3: #e6eaf3;
   --text: #0e1525;
   --muted: #5c647a;
-  --accent: #4361ee;
-  --accent-soft: rgba(67, 97, 238, 0.16);
+  --accent: #ec4899;
+  --accent-soft: rgba(236, 72, 153, 0.16);
   --success: #0f9d58;
   --warning: #c77800;
   --danger: #d64545;
@@ -26,8 +26,8 @@
     --surface-3: #212a3d;
     --text: #f7f9fc;
     --muted: #a3adc2;
-    --accent: #7aa2ff;
-    --accent-soft: rgba(122, 162, 255, 0.2);
+    --accent: #f472b6;
+    --accent-soft: rgba(244, 114, 182, 0.2);
     --success: #2dcf8f;
     --warning: #f7b844;
     --danger: #ff6b6b;
@@ -43,8 +43,8 @@ body[data-theme="light"] {
   --surface-3: #e6eaf3;
   --text: #0e1525;
   --muted: #5c647a;
-  --accent: #4361ee;
-  --accent-soft: rgba(67, 97, 238, 0.16);
+  --accent: #ec4899;
+  --accent-soft: rgba(236, 72, 153, 0.16);
   --success: #0f9d58;
   --warning: #c77800;
   --danger: #d64545;
@@ -59,8 +59,8 @@ body[data-theme="dark"] {
   --surface-3: #212a3d;
   --text: #f7f9fc;
   --muted: #a3adc2;
-  --accent: #7aa2ff;
-  --accent-soft: rgba(122, 162, 255, 0.2);
+  --accent: #f472b6;
+  --accent-soft: rgba(244, 114, 182, 0.2);
   --success: #2dcf8f;
   --warning: #f7b844;
   --danger: #ff6b6b;
@@ -326,7 +326,7 @@ button {
 .progress span {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg, var(--accent), #7ed6ff);
+  background: linear-gradient(90deg, var(--accent), #f9a8d4);
   border-radius: inherit;
 }
 

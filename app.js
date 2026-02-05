@@ -482,7 +482,7 @@ if (cashflowBars) {
     span.style.width = `${Math.round(
       (source.amount / incomeTotal) * 100
     )}%`;
-    span.style.background = "linear-gradient(90deg, var(--accent), #7ed6ff)";
+    span.style.background = "linear-gradient(90deg, var(--accent), #f9a8d4)";
     bar.appendChild(span);
     wrapper.append(label, bar);
     cashflowBars.appendChild(wrapper);
