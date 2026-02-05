@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DevBusiness OS - Developer Business Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="logo-mark">DB</div>
+          <div>
+            <p class="brand-title">DevBusiness OS</p>
+            <p class="brand-subtitle">Business management for developers</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#dashboard">Dashboard</a>
+          <a href="#clients">Clients</a>
+          <a href="#projects">Projects</a>
+          <a href="#finance">Finance</a>
+          <a href="#time">Time</a>
+        </nav>
+        <div class="topbar-actions">
+          <button class="button ghost" id="theme-toggle" type="button">
+            Toggle theme
+          </button>
+          <button class="button primary" type="button">New invoice</button>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="hero">
+          <div>
+            <p class="eyebrow">Developer business cockpit</p>
+            <h1>Run client work, projects, and cashflow in one place.</h1>
+            <p class="muted">
+              A modern, mobile-first workspace tailored for software developers
+              juggling product roadmaps, retainers, contracts, and time-based
+              billing.
+            </p>
+            <div class="hero-actions">
+              <button class="button primary" type="button">Create project</button>
+              <button class="button secondary" type="button">Log time</button>
+            </div>
+          </div>
+          <div class="hero-card card">
+            <p class="label">This week</p>
+            <h2 id="hero-revenue">$0</h2>
+            <p class="muted">Revenue booked - 3 invoices cleared</p>
+            <div class="hero-metrics">
+              <div>
+                <p class="label">Active projects</p>
+                <p class="metric" id="hero-projects">0</p>
+              </div>
+              <div>
+                <p class="label">Hours logged</p>
+                <p class="metric" id="hero-hours">0h</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="dashboard">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2>Dashboard</h2>
+              <p class="muted">
+                Revenue performance, active delivery, and workload insight at a
+                glance.
+              </p>
+            </div>
+            <div class="pill-group">
+              <button class="pill active" type="button">Month</button>
+              <button class="pill" type="button">Quarter</button>
+              <button class="pill" type="button">Year</button>
+            </div>
+          </div>
+
+          <div class="stat-grid">
+            <article class="card stat-card">
+              <div class="stat-header">
+                <p class="label">Revenue - Feb</p>
+                <span class="status status--positive" id="revenue-change"
+                  >+0%</span
+                >
+              </div>
+              <h3 id="revenue-amount">$0</h3>
+              <p class="muted" id="revenue-detail">0 invoices settled</p>
+              <div class="progress">
+                <span id="revenue-progress"></span>
+              </div>
+            </article>
+            <article class="card stat-card">
+              <div class="stat-header">
+                <p class="label">Active projects</p>
+                <span class="status status--neutral" id="project-health"
+                  >On track</span
+                >
+              </div>
+              <h3 id="active-projects">0</h3>
+              <p class="muted" id="active-projects-detail">0 due this month</p>
+              <div class="progress">
+                <span id="project-progress"></span>
+              </div>
+            </article>
+            <article class="card stat-card">
+              <div class="stat-header">
+                <p class="label">Upcoming deadlines</p>
+                <span class="status status--warning" id="deadline-window"
+                  >Next 30d</span
+                >
+              </div>
+              <h3 id="upcoming-deadlines">0</h3>
+              <p class="muted" id="deadline-detail">0 critical milestones</p>
+              <div class="progress">
+                <span id="deadline-progress"></span>
+              </div>
+            </article>
+            <article class="card stat-card">
+              <div class="stat-header">
+                <p class="label">Workload</p>
+                <span class="status status--neutral" id="workload-status"
+                  >Balanced</span
+                >
+              </div>
+              <h3 id="workload-percentage">0%</h3>
+              <p class="muted" id="workload-detail">0h allocated of 0h</p>
+              <div class="progress">
+                <span id="workload-progress"></span>
+              </div>
+            </article>
+          </div>
+
+          <div class="dashboard-grid">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="label">Upcoming deadlines</p>
+                  <h3>Next milestones</h3>
+                </div>
+                <button class="button ghost small" type="button">
+                  View calendar
+                </button>
+              </div>
+              <ul class="list" id="deadline-list"></ul>
+            </article>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="label">Workload insight</p>
+                  <h3>Capacity overview</h3>
+                </div>
+                <button class="button ghost small" type="button">
+                  Adjust capacity
+                </button>
+              </div>
+              <div class="workload-wrap">
+                <div class="workload-ring" id="workload-ring">
+                  <div class="workload-center">
+                    <p class="label">Utilization</p>
+                    <p class="metric" id="workload-ring-value">0%</p>
+                  </div>
+                </div>
+                <div class="workload-list" id="workload-list"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section split" id="clients">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Relationships</p>
+              <h2>Clients</h2>
+              <p class="muted">Track health, next touchpoint, and revenue.</p>
+            </div>
+            <button class="button secondary" type="button">
+              Add client
+            </button>
+          </div>
+          <div class="card">
+            <div class="table-head">
+              <span>Client</span>
+              <span>Health</span>
+              <span>Next action</span>
+              <span>MRR</span>
+            </div>
+            <div class="table-body" id="client-list"></div>
+          </div>
+        </section>
+
+        <section class="section split" id="projects">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Delivery</p>
+              <h2>Projects</h2>
+              <p class="muted">Monitor scope, progress, and delivery risk.</p>
+            </div>
+            <button class="button secondary" type="button">
+              New project
+            </button>
+          </div>
+          <div class="project-grid" id="project-list"></div>
+        </section>
+
+        <section class="section split" id="contracts">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Legal</p>
+              <h2>Contracts</h2>
+              <p class="muted">Renewals, SOWs, and compliance milestones.</p>
+            </div>
+            <button class="button secondary" type="button">
+              Draft contract
+            </button>
+          </div>
+          <div class="card">
+            <div class="table-head">
+              <span>Contract</span>
+              <span>Client</span>
+              <span>Renewal</span>
+              <span>Value</span>
+            </div>
+            <div class="table-body" id="contract-list"></div>
+          </div>
+        </section>
+
+        <section class="section split" id="finance">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Cashflow</p>
+              <h2>Finance</h2>
+              <p class="muted">
+                Invoice health, income, and expense tracking.
+              </p>
+            </div>
+            <button class="button secondary" type="button">
+              Generate report
+            </button>
+          </div>
+
+          <div class="finance-grid">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="label">Invoices</p>
+                  <h3>Billing pipeline</h3>
+                </div>
+                <button class="button ghost small" type="button">
+                  Send reminders
+                </button>
+              </div>
+              <div class="table-head">
+                <span>Invoice</span>
+                <span>Status</span>
+                <span>Due</span>
+                <span>Amount</span>
+              </div>
+              <div class="table-body" id="invoice-list"></div>
+            </article>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="label">Income vs expenses</p>
+                  <h3>Monthly snapshot</h3>
+                </div>
+              </div>
+              <div class="metric-grid">
+                <div>
+                  <p class="label">Income</p>
+                  <p class="metric" id="income-total">$0</p>
+                  <p class="muted" id="income-detail">0 sources</p>
+                </div>
+                <div>
+                  <p class="label">Expenses</p>
+                  <p class="metric" id="expense-total">$0</p>
+                  <p class="muted" id="expense-detail">0 categories</p>
+                </div>
+                <div>
+                  <p class="label">Net cashflow</p>
+                  <p class="metric" id="cashflow-total">$0</p>
+                  <p class="muted" id="cashflow-detail">Stable</p>
+                </div>
+              </div>
+              <div class="bar-stack" id="cashflow-bars"></div>
+              <div class="expense-list" id="expense-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section split" id="time">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Time tracking</p>
+              <h2>Time</h2>
+              <p class="muted">
+                Keep delivery hours, billables, and focus time aligned.
+              </p>
+            </div>
+            <button class="button secondary" type="button">
+              Export timesheet
+            </button>
+          </div>
+
+          <div class="time-grid">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="label">Active timer</p>
+                  <h3 id="active-timer-task">No task running</h3>
+                </div>
+                <button
+                  class="button primary small"
+                  id="timer-toggle"
+                  type="button"
+                >
+                  Start timer
+                </button>
+              </div>
+              <div class="timer-display" id="active-timer">00:00:00</div>
+              <p class="muted" id="timer-detail">
+                Track billable time directly against projects.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="label">Today</p>
+                  <h3>Time entries</h3>
+                </div>
+                <button class="button ghost small" type="button">
+                  Add entry
+                </button>
+              </div>
+              <ul class="list" id="time-entry-list"></ul>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>DevBusiness OS - Designed for developer-led businesses.</p>
+        <p class="muted">All data shown is sample data for demo purposes.</p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
